@@ -5,9 +5,11 @@ import json
 import datetime
 
 import requests
+import bitly_api
 
 from oauth_api import get_oauth
 from settings import BASE_DIR
+from settings import bitly_token
 
 
 def send_tweet(anniversary):
@@ -20,21 +22,27 @@ def send_tweet(anniversary):
         'status': status,
     }
     url = 'https://api.twitter.com/1.1/statuses/update.json'
-    requests.post(url=url, auth=oauth, params=payload)
+    res = requests.post(url=url, auth=oauth, params=payload)
     print("Tweeting " + anniversary['fecha'])
+    res_json = res.json()
+    if 'errors' in res_json:
+        print(res_json)
 
 
 def make_status(anniversary):
+    c = bitly_api.Connection(access_token=bitly_token)
+    short_link_data = c.shorten(anniversary['link'])
+
     human_date = format_date(anniversary['fecha'])
     return '{0} {1} {2}'.format(human_date,
                                 anniversary['hecho'],
-                                anniversary['link'],
+                                short_link_data['url'],
                                 )
 
 
 def format_date(fecha):
     d = datetime.datetime.strptime(fecha, "%Y-%m-%d")
-    return d.strftime("%d de %b %Y")
+    return d.strftime("%d %b %Y")
 
 
 def look_for_anniversary():
@@ -45,11 +53,12 @@ def look_for_anniversary():
 
     for anniversary in data['efemerides']:
         if today in anniversary['fecha']:
+            print("Match {}".format(make_status(anniversary)))
             send_tweet(anniversary)
 
 
 def main():
-    print("hola")
+    look_for_anniversary()
 
 
 if __name__ == '__main__':

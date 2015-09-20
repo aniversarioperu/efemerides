@@ -15,6 +15,7 @@ else:
         'twitter_secret': '',
         'twitter_token': '',
         'twitter_token_secret': '',
+        'bitly_token': '',
     }
 
 
@@ -30,3 +31,4 @@ key = get_secret('twitter_key')
 secret = get_secret('twitter_secret')
 token = get_secret('twitter_token')
 token_secret = get_secret('twitter_token_secret')
+bitly_token = get_secret('bitly_token')
