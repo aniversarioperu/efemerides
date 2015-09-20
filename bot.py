@@ -38,7 +38,7 @@ def make_status(anniversary):
 
 def format_date(fecha):
     d = datetime.datetime.strptime(fecha, "%Y-%m-%d")
-    return d.strftime("%d de %b %Y");
+    return d.strftime("%d de %b %Y")
 
 
 def look_for_anniversary():
