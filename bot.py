@@ -2,16 +2,12 @@
 # -*- coding: utf8 -*-
 import os
 import json
-import codecs
 import datetime
-import re
-import subprocess
-import time
 
 import requests
 
-from .oauth_api import get_oauth
-from .settings import BASE_DIR
+from oauth_api import get_oauth
+from settings import BASE_DIR
 
 
 def send_tweet(anniversary):
@@ -50,3 +46,11 @@ def look_for_anniversary():
     for anniversary in data['efemerides']:
         if today in anniversary['fecha']:
             send_tweet(anniversary)
+
+
+def main():
+    print("hola")
+
+
+if __name__ == '__main__':
+    main()
