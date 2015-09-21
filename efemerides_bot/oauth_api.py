@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 from requests_oauthlib import OAuth1
 
-import settings
+from . import settings
 
 REQUEST_TOKEN_URL = "https://api.twitter.com/oauth/request_token"
 AUTHORIZE_URL = "https://api.twitter.com/oauth/authorize?oauth_token="

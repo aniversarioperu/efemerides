@@ -5,9 +5,9 @@ import os
 import requests
 import bitly_api
 
-from oauth_api import get_oauth
-from settings import BASE_DIR
-from settings import bitly_token
+from .oauth_api import get_oauth
+from .settings import BASE_DIR
+from .settings import bitly_token
 
 
 def send_tweet(anniversary):

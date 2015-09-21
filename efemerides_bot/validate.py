@@ -4,7 +4,7 @@ import os
 from jsonschema import validate
 from jsonschema.exceptions import ValidationError
 
-from efemerides_bot.settings import BASE_DIR
+from .settings import BASE_DIR
 
 
 def validate_data():
