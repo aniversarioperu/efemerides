@@ -1,6 +1,11 @@
 {
   "efemerides": [
     {
+      "hecho": "Chile inicia proceso de extradición de Alberto Fujimori y prohíbe hacer proselitismo político",
+      "fecha": "2006-01-06",
+      "link": "http://larepublica.pe/21-09-2007/cronologia-desde-la-llegada-de-fujimori-chile"
+    },
+    {
       "hecho": "SILVA SANCHEZ, DANILO CONRADO es indultado por @ALANGARCIAPERU y es capturado con droga",
       "fecha": "2009-01-09",
       "link": "http://elcomercio.pe/lima/policiales/uno-detenidos-droga-barranca-fue-conmutado-garcia-noticia-1747013"
@@ -9,6 +14,16 @@
       "hecho": "Valentín Paniagua cuadra a Nicolás Lucar",
       "fecha": "2001-01-28",
       "link": "http://www.youtube.com/watch?v=UhzPTuLOB4I"
+    },
+    {
+      "hecho": "Corte Suprema chilena rechaza libertad provisional d Alberto Fujimori por ser 'peligro para la sociedad'",
+      "fecha": "2006-02-23",
+      "link": "http://larepublica.pe/21-09-2007/cronologia-desde-la-llegada-de-fujimori-chile"
+    },
+    {
+      "hecho": "Chile dice haber tomado precauciones para evitar la fuga de Alberto Fujimori",
+      "fecha": "2007-02-23",
+      "link": "http://larepublica.pe/21-09-2007/cronologia-desde-la-llegada-de-fujimori-chile"
     },
     {
       "hecho": "Alan Garcia: 'Dios me ha dado la capacidad de convencer a las personas, incluso a los que dudan'",
@@ -161,7 +176,7 @@
       "link": "http://peru21.pe/noticia/93431/odebrecht-muestra-interes-realizar-iii-etapa-chavimochic"
     },
     {
-      "hecho": "Corte Suprema de Chile concede extradición de Alberto Fujimori a Perú, Cantuta y Barrios",
+      "hecho": "Corte Suprema de Chile concede extradición de Alberto Fujimori a Perú, Cantuta y Barrios Altos",
       "fecha": "2007-09-21",
       "link": "http://larepublica.pe/21-09-2007/cronologia-desde-la-llegada-de-fujimori-chile"
     },
@@ -171,12 +186,12 @@
       "link": "http://larepublica.pe/24-09-2007/mutilaron-el-ojo-que-llora-0"
     },
     {
-      "hecho": "Nombran a hija d Meche Cabanillas miembro d directorio Inst d Radio y Televisión Peruana",
+      "hecho": "Nombran a hija de Meche Cabanillas miembro de directorio del Instituto de Radio y Televisión Peruana",
       "fecha": "2006-09-26",
       "link": "http://peru21.pe/noticia/40646/nombran-hija-cabanillas-como-miembro-directorio-irtp"
     },
     {
-      "hecho": "Alan Garcia nombra hija d Meche Cabanillas en directorio Inst d RadioyTelevisión Peruana",
+      "hecho": "Alan Garcia nombra hija de Meche Cabanillas en directorio del Instituto de Radio y Televisión Peruana",
       "fecha": "2006-09-27",
       "link": "http://larepublica.pe/27-09-2006/meche-cabanillas-no-pedi-puesto-para-mi-hija"
     },
@@ -219,6 +234,16 @@
       "hecho": "Vladimiro Monstesinos huye del Perú a bordo del velero Karisma",
       "fecha": "2000-10-29",
       "link": "http://es.wikipedia.org/wiki/Levantamiento_de_Locumba#Sospechosa_coincidencia"
+    },
+    {
+      "hecho": "Alberto Fujimori llega inesperadamente a Santiago de Chile desde Japón en un avión privado",
+      "fecha": "2005-11-06",
+      "link": "http://larepublica.pe/21-09-2007/cronologia-desde-la-llegada-de-fujimori-chile"
+    },
+    {
+      "hecho": "Alberto Fujimori es detenido y recluido en el Servicio de Prisiones a petición del gobierno peruano",
+      "fecha": "2005-11-07",
+      "link": "http://larepublica.pe/21-09-2007/cronologia-desde-la-llegada-de-fujimori-chile"
     },
     {
       "hecho": "Alan García lanza otro de sus paquetazos cc: @ALANGARCIAPERU",
