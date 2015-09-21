@@ -13,6 +13,6 @@ notifications:
     on_failure: always
 
 # command to run tests, e.g. python setup.py test
-script: nosetests tests.py
+script: nosetests -v 2 tests.py
 
 after_success: coveralls

@@ -1,6 +1,6 @@
 import unittest
 
-from .validate import validate_data
+from efemerides_bot.validate import validate_data
 
 
 class TestJsonData(unittest.TestCase):

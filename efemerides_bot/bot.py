@@ -1,9 +1,7 @@
-#!/usr/bin/env python
-# -*- coding: utf8 -*-
-import os
 import json
 import datetime
 
+import os
 import requests
 import bitly_api
 
