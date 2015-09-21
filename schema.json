@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "/",
+  "type": "object",
+  "properties": {
+    "efemerides": {
+      "id": "efemerides",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "hecho": {
+            "id": "hecho",
+            "type": "string",
+            "maxLength": 104
+
+          },
+          "fecha": {
+            "id": "fecha",
+            "type": "string"
+          },
+          "link": {
+            "id": "link",
+            "type": "string"
+          }
+        },
+        "required": [
+          "hecho",
+          "fecha",
+          "link"
+        ]
+      },
+      "required": [
+        "0"
+      ]
+    }
+  },
+  "required": [
+    "efemerides"
+  ]
+}
