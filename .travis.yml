@@ -1,0 +1,18 @@
+language: python
+
+sudo: false
+
+python:
+    - "3.4"
+
+install: "pip install -r requirements.txt"
+
+notifications:
+  email:
+    on_success: never
+    on_failure: always
+
+# command to run tests, e.g. python setup.py test
+script: nosetests test.py
+
+after_success: coveralls
